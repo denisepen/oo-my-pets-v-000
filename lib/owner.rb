@@ -38,7 +38,7 @@ def buy_dog(name)
   # d.owner = self
 end
 def walk_dogs
-  @pets[:dogs].mood = happy
+  @pets[:dogs].mood = "happy"
 end
 
 def self.all
