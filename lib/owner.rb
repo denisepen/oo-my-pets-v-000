@@ -11,7 +11,7 @@ def initialize(name)
   @pets = {fishes: [], cats: [], dogs: []}
 end
 
-def species
+def species(species)
   @species = species
 end
 def buy_fish
