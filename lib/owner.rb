@@ -48,7 +48,7 @@ def play_with_cats
 end
 
 def feed_fish
-    array = @pets[:fish]
+    array = @pets[:fishes]
     array.collect {|fish| fish.mood = "happy"}
 end
 
