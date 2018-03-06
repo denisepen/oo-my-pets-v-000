@@ -38,8 +38,8 @@ def buy_dog(name)
   # d.owner = self
 end
 def walk_dogs
-  @pets.each_value  {|dog| [:dog].mood = "happy"}
-    dog.mood
+    array = @pets[:dogs]
+    array.collect {|dog| dog.mood = "happy"}
 end
 
 def sell_pets
