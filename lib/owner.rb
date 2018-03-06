@@ -35,7 +35,7 @@ end
 def buy_dog(name)
   d = Dog.new(name)
   @pets[:dogs] << d
-  d.owner = self
+  # d.owner = self
 end
 
 def self.all
