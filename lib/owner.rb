@@ -43,6 +43,9 @@ end
 
 def sell_pets
   @pets.clear
+  Dog.new
+  Cat.new
+  Fish.new
 
 end
 
