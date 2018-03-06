@@ -67,7 +67,7 @@ def list_pets
     cat_count = cat_arr.length
     fish_count = fish.arr.length
   # "I have 2 fish, 3 dog(s), and 1 cat(s)."
- "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."}
+ "I have #{fish_count} fish, #{dog_count} dog(s), and #{cat_count} cat(s)."
   # @pets.each_pair.collect {|key, value|
 end
 
