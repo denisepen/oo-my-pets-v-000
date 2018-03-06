@@ -60,7 +60,12 @@ def sell_pets
 
 end
 def list_pets
-
+    dog_arr = @pets[:dogs]
+    cat_arr = @pets[:cats]
+    fish_arr = @pets[:fishes]
+    dog_count = dog_arr.length
+    cat_count = cat_arr.length
+    fish_count = fish.arr.length
   "I have 2 fish, 3 dog(s), and 1 cat(s)."
 end
 
