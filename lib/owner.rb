@@ -20,7 +20,7 @@ def say_species
 end
 
 def buy_fish(name)
-  Fish.new = name
+  f = Fish.new(name)
   f.name = name
   f.owner = self
 
