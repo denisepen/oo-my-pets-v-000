@@ -42,6 +42,16 @@ def walk_dogs
     array.collect {|dog| dog.mood = "happy"}
 end
 
+def play_with_cats
+    array = @pets[:cats]
+    array.collect {|cat| cat.mood = "happy"}
+end
+
+def feed_fish
+    array = @pets[:fish]
+    array.collect {|fish| fish.mood = "happy"}
+end
+
 def sell_pets
   @pets.clear
   Dog.new(name)
