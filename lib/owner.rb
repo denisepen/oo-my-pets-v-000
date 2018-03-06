@@ -11,8 +11,19 @@ def initialize(name)
   @pets = {fishes: [], cats: [], dogs: []}
 end
 
-def species(species)
+def species
   @species = species
+end
+def buy_fish
+
+end
+
+def buy_cat
+
+end
+
+def buy_dog
+
 end
 
 def self.all
