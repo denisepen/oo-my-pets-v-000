@@ -10,6 +10,7 @@ end
 def self.save
   @@all << self
 end
+
 def self.all
   @@all
 end
