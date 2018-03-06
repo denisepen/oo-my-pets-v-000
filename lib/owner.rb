@@ -11,7 +11,7 @@ def initialize(name)
   @pets = {fishes: [], cats: [], dogs: []}
 end
 
-def species(species)
+def species(species = "rat")
   @species = species
 end
 
