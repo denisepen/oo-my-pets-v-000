@@ -19,16 +19,17 @@ def say_species(species)
   puts "I am a #{species}"
 end
 
-def buy_fish
+def buy_fish(name)
   f = Fish.new
 
-end
-
-def buy_cat
 
 end
 
-def buy_dog
+def buy_cat(name)
+
+end
+
+def buy_dog(name)
 
 end
 
