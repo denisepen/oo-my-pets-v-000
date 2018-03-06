@@ -15,7 +15,7 @@ def species(species = "human")
   @species = species
 end
 
-def say_species(species)
+def say_species
    "I am a #{species}."
 end
 
