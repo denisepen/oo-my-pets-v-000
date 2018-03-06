@@ -41,6 +41,12 @@ def walk_dogs
   @pets[:dogs].mood = "happy"
 end
 
+def sell_pets
+  @pets[:dogs] = []
+  @pets[:cats] = []
+  @pets[:fish] = []
+end
+
 def self.all
   @@all
 end
