@@ -23,7 +23,7 @@ def buy_fish(name)
   f = Fish.new(name)
   # f.name = name
   @pets[:fish] = f
-  # f.owner = self
+  f.owner = self
 
 end
 
