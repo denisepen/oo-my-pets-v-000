@@ -1,6 +1,6 @@
 class Owner
 
-  attr_accessor :name, :pets, :cat, :dog, :fish
+  attr_accessor :name, :pets, :cat, :dog, :fish, :mood
   attr_reader :species
 
   @@all = []
@@ -36,6 +36,9 @@ def buy_dog(name)
   d = Dog.new(name)
   @pets[:dogs] << d
   # d.owner = self
+end
+def walk_dogs
+  
 end
 
 def self.all
