@@ -42,9 +42,8 @@ def walk_dogs
 end
 
 def sell_pets
-  @pets[:dogs] = nil
-  @pets[:cats] = nil
-  @pets[:fish] = nil
+  @pets.clear
+
 end
 
 def self.all
