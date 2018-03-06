@@ -9,9 +9,9 @@ def initialize(name)
   @@all << self
 end
 
-# def self.save
-#   @@all << self
-# end
+def species(species)
+  @species = species
+end
 
 def self.all
   @@all
