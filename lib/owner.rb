@@ -67,6 +67,7 @@ def list_pets
     cat_count = cat_arr.length
     fish_count = fish.arr.length
   "I have 2 fish, 3 dog(s), and 1 cat(s)."
+  @pets.each_pair {|key, value| "I have #{value.length} fish, #{value.length} dog(s), and #{value.length} cat(s)."}
 end
 
 def self.all
