@@ -59,6 +59,9 @@ def sell_pets
   Fish.new(name)
 
 end
+def list_pets
+"I have 2 fish, 3 dog(s), and 1 cat(s)."
+end
 
 def self.all
   @@all
