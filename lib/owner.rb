@@ -53,12 +53,16 @@ def feed_fish
 end
 
 def sell_pets
-  @pets.clear
-  Dog.new(name)
-  Cat.new(name)
-  Fish.new(name)
+  array = @pets[:fishes]
+  array.collect {|fish| fish.mood = "nervous"}
+  array = @pets[:cats]
+  array.collect {|cat| cat.mood = "nervous"}
+  array = @pets[:dogs]
+  array.collect {|dog| dog.mood = "nervous"}
 
-end
+
+  @pets.clear
+  end
 def list_pets
     dog_arr = @pets[:dogs]
     cat_arr = @pets[:cats]
