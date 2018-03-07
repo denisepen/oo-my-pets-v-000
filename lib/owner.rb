@@ -53,7 +53,7 @@ def feed_fish
 end
 
 def sell_pets
-  
+
   array = @pets[:fishes]
   array.collect {|fish| fish.mood = "nervous"}
   array = @pets[:cats]
