@@ -60,9 +60,6 @@ def sell_pets
   array.collect {|cat| cat.mood = "nervous"}
   array = @pets[:dogs]
   array.collect {|dog| dog.mood = "nervous"}
-
-
-
   end
 def list_pets
     dog_arr = @pets[:dogs]
